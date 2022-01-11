@@ -13,6 +13,8 @@
 		EE2D0B2A277A09910000C21B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2D0B28277A09910000C21B /* Main.storyboard */; };
 		EE2D0B2C277A09940000C21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2D0B2B277A09940000C21B /* Assets.xcassets */; };
 		EE2D0B2F277A09940000C21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2D0B2D277A09940000C21B /* LaunchScreen.storyboard */; };
+		EE2D0B37277A0FAC0000C21B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D0B36277A0FAC0000C21B /* SecondViewController.swift */; };
+		EED69A26278DD5030086FFD6 /* DataUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED69A25278DD5030086FFD6 /* DataUpdate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EE2D0B2B277A09940000C21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2D0B2E277A09940000C21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE2D0B30277A09940000C21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2D0B36277A0FAC0000C21B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EED69A25278DD5030086FFD6 /* DataUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUpdate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				EE2D0B2B277A09940000C21B /* Assets.xcassets */,
 				EE2D0B2D277A09940000C21B /* LaunchScreen.storyboard */,
 				EE2D0B30277A09940000C21B /* Info.plist */,
+				EE2D0B36277A0FAC0000C21B /* SecondViewController.swift */,
+				EED69A25278DD5030086FFD6 /* DataUpdate.swift */,
 			);
 			path = TransferApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2D0B37277A0FAC0000C21B /* SecondViewController.swift in Sources */,
 				EE2D0B27277A09910000C21B /* ViewController.swift in Sources */,
+				EED69A26278DD5030086FFD6 /* DataUpdate.swift in Sources */,
 				EE2D0B23277A09910000C21B /* AppDelegate.swift in Sources */,
 				EE2D0B25277A09910000C21B /* SceneDelegate.swift in Sources */,
 			);
